@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey|Lucid Bookstore</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div class="layer">
+            <h1 id="title">Lucid Bookstore Survey Form</h1>
+            <p id="description">The Citadel Of Knowledge</p>
+            <form id="survey-form" action="#">
+                <fieldset>
+                    <label for="name" id="name-label">Name<input name="name" type="text" id="name" placeholder="   Enter your full name" class="name" required></label>
+                    <label for="email" id="email-label">Email<input type="email" name="email" id="email" placeholder="   Enter your E-mail address here" class="email" required></label>
+                    <label for="number" id="number-label">Age<input type="number" id="number" min="18" max="150" id="number" placeholder="   Enter your Age" class="age" required></label>
+                    <label for="dropdown">
+                        What is your gender?
+                        <select name="Gender" id="gender-dropdown" class="gender-dropdown">
+                            <option value=""></option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <p class="tell-us">Tell us how you  heard about us</p>
+                    <label for="social-media" ><input name="referrer" type="radio" id="social-media" class="inline"> Social Media</label>
+                    <label for="friend"><input name="referrer" type="radio" id="friend" class="inline"> A Friend</label>
+                </fieldset>
+                <fieldset>
+                    <p class="tell-us">What Services do you need today? (check all that apply)</p>
+                    <label for="books"><input type="checkbox" value="Books" id="books" class="inline"> Books</label>
+                    <label for="hostel"><input type="checkbox" value="Hostel" id="hostel" class="inline"> Hostels</label>
+                    <label for="consulting-services"><input type="checkbox" value="Consulting Services" id="consulting-services" class="inline"> Consulting Services</label>
+                </fieldset>
+                
+                <fieldset>
+                    <p class="tell-us">What do you have to tell us about your needs ?</p>
+                    <textarea name="" id="" cols="80" rows="10"></textarea>
+                </fieldset>
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </div>
+    </body>
+</html>
+

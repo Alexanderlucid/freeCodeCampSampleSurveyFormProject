@@ -1,0 +1,16 @@
+{
+  "name": "freecodecamp-survey-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://alexanderlucid.github.io/freeCodeCampSampleSurveyFormProject",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
