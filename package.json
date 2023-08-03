@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://alexanderlucid.github.io/freecodecampsamplesurveyformproject",
+  "homepage": "https://alexanderlucid.github.io/freeCodeCampSampleSurveyFormProject",
   "dependencies": {
     "gh-pages": "^5.0.0"
   }
